@@ -1,0 +1,29 @@
+.footer_bg{
+  width: 100%;
+  height: 500px;
+  background-color:black;
+}
+.line_one{
+ position: relative;
+}
+.line_one>span{
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  color: aliceblue;
+}
+/* .line_one div {
+  position: relative;
+} */
+.line_one div img{
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+.line_two>span{
+  color: aliceblue;
+
+}
+.line_three>span{
+  color: aliceblue;
+}

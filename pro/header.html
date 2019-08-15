@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./css/header.css">
 </head>
 <body>
+    <div class="container">
   <!-- header_title包含左、中、右/(left/middle/right)三部分 -->
   <div class="header_title">
     <!-- 左边部分 音乐logo图 -->
@@ -59,9 +60,54 @@
       <a href="">MV</a>
     </div>
   </div>
-  <!-- 轮播图 -->
-  <div>
-    
+    <!-- 焦点轮播图-->
+    <div id="demo" class="carousel" data-ride="carousel">
+        <!-- 图片-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../pro/img/header/1.jpg" alt="" class="w-100"/>
+            </div>
+            <div class="carousel-item">
+                <img src="../pro/img/header/2.jpg" alt="" class="w-100"/>
+            </div>
+            <div class="carousel-item">
+                <img src="../pro/img/header/3.jpg" alt="" class="w-100"/>
+            </div>
+            <div class="carousel-item">
+                <img src="../pro/img/header/4.jpg" alt="" class="w-100"/>
+            </div>
+            <div class="carousel-item">
+                <img src="../pro/img/header/5.jpg" alt="" class="w-100"/>
+            </div>
+        </div>
+        <!-- 指示器-->
+        <ul class="carousel-indicators">
+            <li data-slide-to="0" data-target="#demo" class="active"></li>
+            <li data-slide-to="1" data-target="#demo" ></li>
+            <li data-slide-to="2" data-target="#demo" ></li>
+            <li data-slide-to="3" data-target="#demo" ></li>
+            <li data-slide-to="4" data-target="#demo" ></li>
+        </ul>
+        <!-- 左右箭头-->
+        <a href="#demo" data-slide="prev" class="carousel-control-prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#demo" data-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <!-- 轮播图上的版本说明 -->
+    <div class="session">
+      <a href=""><img src="../pro/img/header/windows.png" alt=""></a>
+      <a href=""><span>下载PC版</span></a>
+      <a href=""><img src="../pro/img/header/机器人.png" alt=""></a>
+      <a href=""><span>下载Android版</span></a>
+      <a href=""><img src="../pro/img/header/iPhone.png" alt=""></a>
+      <a href=""><span>下载iPhone版</span></a>
+      <a href=""><img src="../pro/img/header/电脑.png" alt=""></a>
+      <a href=""><span>下载其它版本</span></a>
+
+    </div>
   </div>
 </body>
 </html>
